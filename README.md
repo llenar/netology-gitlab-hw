@@ -1,4 +1,6 @@
-# netology-gitlab-hw
+# Решение 1
+
+![alt text](https://github.com/llenar/netology-gitlab-hw/blob/main/Scr1-1.png)
 
 ``` bash
 sudo -i
