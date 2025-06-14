@@ -1,5 +1,6 @@
 # netology-gitlab-hw
 
+``` bash
 sudo -i
 apt update
 apt install postgresql
@@ -13,3 +14,5 @@ zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psq
 sed -i 's/# DBPassword=/DBPassword=13579/g' /etc/zabbix/zabbix_server.conf
 systemctl restart zabbix-server apache2
 systemctl enable zabbix-server apache2
+
+```
