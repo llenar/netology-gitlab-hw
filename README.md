@@ -11,9 +11,11 @@
 2. Приложите в файл README.md текст использованных команд в GitHub.
 
 # Решение 1
+1. Прикрепите в файл README.md скриншот авторизации в админке.
 
 ![alt text](https://github.com/llenar/netology-gitlab-hw/blob/main/Screen/Scrn-Zabbix-server.png)
 
+3. Приложите в файл README.md текст использованных команд в GitHub.
 ``` bash
 ssh -l admin 158.160.128.71
 sudo apt update
@@ -50,8 +52,23 @@ sudo systemctl enable zabbix-server apache2
 
 # Решение 2 
 
+![alt text](https://github.com/llenar/netology-gitlab-hw/blob/main/Screen/Scrn-Zabbix-cloud.png)
+
+
+1. Приложите в файл README.md скриншот раздела Configuration > Hosts, где видно, что агенты подключены к серверу
+   
 ![alt text](https://github.com/llenar/netology-gitlab-hw/blob/main/Screen/Scrn-Zabbix-Agent.png)
 
+2. Приложите в файл README.md скриншот лога zabbix agent, где видно, что он работает с сервером
+
+![alt text](https://github.com/llenar/netology-gitlab-hw/blob/main/Screen/Scrn-Zabbix-cloud.png)
+
+3. Приложите в файл README.md скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
+   
+![alt text](https://github.com/llenar/netology-gitlab-hw/blob/main/Screen/Scrn-Zabbix-LatestData.png)
+
+4. Приложите в файл README.md текст использованных команд в GitHub
+   
 ``` bash
 ssh -l admin 158.160.186.211
 sudo apt update
@@ -65,3 +82,5 @@ sudo systemctl restart zabbix-agent
 sudo systemctl enable zabbix-agent
 
 ```
+
+
