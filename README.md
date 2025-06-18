@@ -51,7 +51,7 @@ sudo systemctl enable zabbix-server apache2
 # Решение 2 
 
 ``` bash
-sudo -i
+ssh -l admin 158.160.186.211
 sudo apt update
 sudo wget https://repo.zabbix.com/zabbix/6.4/debian/pool/main/z/zabbix-release/zabbix-release_6.4-1+debian11_all.deb
 sudo dpkg -i zabbix-release_6.4-1+debian11_all.deb
