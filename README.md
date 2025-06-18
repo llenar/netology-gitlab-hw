@@ -12,7 +12,7 @@
 
 # Решение 1
 
-![alt text](https://github.com/llenar/netology-gitlab-hw/blob/main/Scr1-1.png)
+![alt text](https://github.com/llenar/netology-gitlab-hw/blob/main/Screen/Scrn-Zabbix-server.png)
 
 ``` bash
 ssh -l admin 158.160.128.71
