@@ -3,7 +3,7 @@
 ![alt text](https://github.com/llenar/netology-gitlab-hw/blob/main/Scr1-1.png)
 
 ``` bash
-ssh -l admin 84.252.132.202
+ssh -l admin 158.160.128.71
 sudo apt update
 sudo apt install postgresql
 sudo wget https://repo.zabbix.com/zabbix/6.4/debian/pool/main/z/zabbix-release/zabbix-release_6.4-1+debian11_all.deb
