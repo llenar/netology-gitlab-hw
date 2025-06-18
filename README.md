@@ -50,6 +50,8 @@ sudo systemctl enable zabbix-server apache2
 
 # Решение 2 
 
+![alt text](https://github.com/llenar/netology-gitlab-hw/blob/main/Screen/Scrn-Zabbix-Agent.png)
+
 ``` bash
 ssh -l admin 158.160.186.211
 sudo apt update
